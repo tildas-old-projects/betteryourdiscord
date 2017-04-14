@@ -1,0 +1,30 @@
+{
+  "name": "betteryourdiscord",
+  "version": "1.0.0",
+  "description": "A Discord CSS overhaul",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "standard --fix && gulp && ./testutils/exitcode.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xshotD/betteryourdiscord.git"
+  },
+  "keywords": [
+    "discord",
+    "betterdiscord",
+    "theme",
+    "css"
+  ],
+  "author": "S Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xshotD/betteryourdiscord/issues"
+  },
+  "homepage": "https://github.com/xshotD/betteryourdiscord#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "standard": "^10.0.1"
+  }
+}
