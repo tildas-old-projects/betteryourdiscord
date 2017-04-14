@@ -1,2 +1,8 @@
-# betteryourdiscord
-A in-dev Discord CSS overhaul, includes Prism theme
+# BetterYourDiscord
+The Discord CSS overhaul.
+
+# Current code includes:
+
+- Prism theme
+- Disccord
+- and a few tweaks such as gradient and opacity
