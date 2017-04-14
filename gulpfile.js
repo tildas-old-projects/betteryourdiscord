@@ -1,8 +1,10 @@
 const g = require('gulp')
 const cn = require('gulp-cssnano')
+const rs = require('run-sequence')
 
-g.task('css', function() {
+g.task('default', function() {
   return g.src('src/byd.css')
-  g.pipe(cn())
-  g.pipe(g.dest('./theme')
+  .pipe(cn())
+  .pipe(g.dest('out'))
 })
+
