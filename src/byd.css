@@ -5,41 +5,15 @@
 */
 
 
-/* kikke/banne thing */
-@import url("https://cdn.rawgit.com/jakeoid/disccord/master/disccord.css");
+/* quick switcher notice, be gone */
+.quickswitcher-notice {
+    display: none;
+}
 
-/* change le font size kthx */
-body {
-  font-size: 12px;
+/* channel scrollers */
+.guild-channels {
+    opacity: 0.8;
 }
-/* app background */
-/* TODO: let user decide gradient */
-.app {
-  background: #7474BF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.connecting {
-  background: transparent !important;
-}
-/* transparent thingy */
-.chat .channels-wrap {
-  background: transparent !important;
-  opacity: 0.8;
-  color: white;
-}
-/* message group opacity shit */
-/* make other messages kinda dissappear lol */
-.message-group {
-  opacity: 0.95;
-  color: white;
-}
-/* the latest message is full on visible */
-.message-group:last-of-type {
-  opacity: 1.0;
-}
-/* voice connection status */
-.rtc-connection, .rtc-connection-inner, .rtc-connection-status, .rtc-connection-status-connected, .rtc-connection-quality-fine {
-  background: transparent !important;
-  color: white;
+.guild-channels:hover {
+    opacity: 1.0;
 }
