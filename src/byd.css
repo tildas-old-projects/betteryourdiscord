@@ -26,13 +26,20 @@ body {
 .chat .channels-wrap {
   background: transparent !important;
   opacity: 0.8;
+  color: white;
 }
 /* message group opacity shit */
 /* make other messages kinda dissappear lol */
 .message-group {
   opacity: 0.95;
+  color: white;
 }
 /* the latest message is full on visible */
 .message-group:last-of-type {
   opacity: 1.0;
+}
+/* voice connection status */
+.rtc-connection .rtc-connection-inner {
+  background: transparent !important;
+  color: white;
 }
