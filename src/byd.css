@@ -10,10 +10,13 @@
     display: none;
 }
 
-/* channel scrollers */
-.guild-channels {
+/* channel/guild scrollers */
+.guild-channels, .guilds {
     opacity: 0.8;
 }
-.guild-channels:hover {
-    opacity: 1.0;
+
+
+/* app transparency */
+.app {
+    opacity: 0.8;
 }
