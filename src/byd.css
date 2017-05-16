@@ -39,7 +39,7 @@ body {
   opacity: 1.0;
 }
 /* voice connection status */
-.rtc-connection .rtc-connection-inner {
+.rtc-connection, .rtc-connection-inner, .rtc-connection-status, .rtc-connection-status-connected, .rtc-connection-quality-fine {
   background: transparent !important;
   color: white;
 }
