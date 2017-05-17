@@ -4,6 +4,8 @@
     this CSS is kinda half baked lol
 */
 
+/* import font boi */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 /* quick switcher notice, be gone */
 .quickswitcher-notice {
@@ -19,4 +21,5 @@
 /* app transparency */
 .app {
     opacity: 0.8;
+    font-family: 'Noto Sans', sans-serif;
 }
