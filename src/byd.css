@@ -21,5 +21,8 @@
 /* app transparency */
 .app {
     opacity: 0.8;
-    font-family: 'Noto Sans', sans-serif;
+}
+/* use the font */
+body {
+    font-family: 'Noto Sans' !important, sans-serif;
 }
