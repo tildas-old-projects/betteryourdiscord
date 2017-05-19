@@ -4,8 +4,15 @@
     this CSS is kinda half baked lol
 */
 
-/* import font boi */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/* import Roboto Regular */
+@font-face {
+    font-family: Roboto;
+    src: url(https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf);
+/* import Noto's Color Emoji */
+@font-face {
+    font-family: Emoji;
+    src: url(https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/nce.ttf);
+}
 
 /* quick switcher notice, be gone */
 .quickswitcher-notice {
@@ -24,5 +31,5 @@
 }
 /* use the font */
 body {
-    font-family: 'Noto Sans' !important, sans-serif;
+    font-family: 'Roboto', 'Emoji', sans-serif;
 }
