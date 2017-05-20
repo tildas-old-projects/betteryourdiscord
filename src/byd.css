@@ -31,5 +31,5 @@
 }
 /* use the font */
 body {
-    font-family: 'Roboto', 'Emoji', sans-serif;
+    font-family: 'Roboto' !important, 'Emoji', sans-serif;
 }
