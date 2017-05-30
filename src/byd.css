@@ -30,12 +30,6 @@
     display: none;
 }
 
-/* channel/guild scrollers */
-.guild-channels, .guilds {
-    opacity: 0.8;
-}
-
-
 /* app transparency */
 .connecting,
 .theme-dark .guild-header header,
