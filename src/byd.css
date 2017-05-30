@@ -1,17 +1,21 @@
 /*  betteryourdiscord - a CSS overhaul
     a project by S Stewart
     licensed under MIT
-    this CSS is kinda half baked lol
+    this CSS is kinda half bakedt lol
 */
+
+/* thanks triping for le gr8 css */
+@import url("https://cdn.rawgit.com/TripingPC/discord-CSSes/master/account-circles.css");
 
 /* import Roboto Regular */
 @font-face {
     font-family: Roboto;
-    src: url(https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf);
+    src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf");
+}
 /* import Noto's Color Emoji */
 @font-face {
     font-family: Emoji;
-    src: url(https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/nce.ttf);
+    src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/nce.ttf");
 }
 
 /* quick switcher notice, be gone */
