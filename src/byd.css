@@ -1,11 +1,18 @@
 /*  betteryourdiscord - a CSS overhaul
     a project by S Stewart
     licensed under MIT
-    this CSS is kinda half bakedt lol
+    this CSS is kinda half baked lol
 */
 
 /* thanks triping for le gr8 css */
 @import url("https://cdn.rawgit.com/TripingPC/discord-CSSes/master/account-circles.css");
+.btn-group button {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    border: none!important;
+    filter:brightness(200%)!important;
+    opacity: 1!important;
+}
 
 /* import Roboto Regular */
 @font-face {
