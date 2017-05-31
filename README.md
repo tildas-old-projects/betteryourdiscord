@@ -34,7 +34,10 @@ Further, you can test the gulp code with `npm test`.
 # Credits
 
 ```
-BoxOfFlex - transparent base CSS - (c) 2016 BoxOfFlex
-TripingPC - frosted glass look - (c) 2017 TripingPC
-Google - Roboto/Noto - (c) 2017 Google
-xshotD - all of the rest - (c) 2017 S Stewart/xshotD
+| Author    | Parts           | Copyright           |
+-----------------------------------------------------
+| BoxOfFlex | transparent base | (c) 2016 BoxOfFlex |
+| TripingPC | frosted glass    | (c) 2017 TripingPC |
+| Google    | fonts            | (c) 2017 Google    |
+| xshotD    | the rest         | (c) 2017 S Stewart |
+```
