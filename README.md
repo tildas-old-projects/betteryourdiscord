@@ -3,9 +3,12 @@ The Discord CSS overhaul.
 
 # Current code includes:
 
-- Prism theme
-- Disccord
-- and a few tweaks such as gradient and opacity
+- Opacity
+- "Frosted glass" look
+
+# Side effects
+
+- You have to use quick switcher.
 
 # Installing
 
@@ -27,3 +30,11 @@ gulp
 You can find the minified/autoprefixed CSS in the `out` folder.
 
 Further, you can test the gulp code with `npm test`.
+
+# Credits
+
+```
+BoxOfFlex - transparent base CSS - (c) 2016 BoxOfFlex
+TripingPC - frosted glass look - (c) 2017 TripingPC
+Google - Roboto/Noto - (c) 2017 Google
+xshotD - all of the rest - (c) 2017 S Stewart/xshotD
