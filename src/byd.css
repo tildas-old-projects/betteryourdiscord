@@ -15,10 +15,10 @@
 }
 
 /* import Roboto Regular */
-@font-face {
+/*@font-face {
     font-family: Roboto;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf");
-}
+}*/
 /* import Noto's Color Emoji */
 @font-face {
     font-family: Emoji;
@@ -78,5 +78,5 @@ section.flex-verticle.flexspacer,
 }
 /* use the font */
 body {
-    font-family: 'Roboto', 'Emoji', sans-serif;
+    font-family: 'Emoji', sans-serif;
 }
