@@ -9,10 +9,11 @@ The Discord CSS overhaul.
 
 # Installing
 
-If you'd like to install BYD, you can import it into a CSS file, using rawgit CDN.
+If you'd like to install BYD, you can import it into a CSS file, using rawgit's service.
+(Nornal GitHub raw URLs do NOT work!)
 
 ```css
-@import url(https://cdn.rawgit.com/xshotD/betteryourdiscord/master/src/byd.css);
+@import url(https://rawgit.com/xshotD/betteryourdiscord/master/src/byd.css);
 ```
 
 If you're a developer and want to build (with minify and autoprefixer) you're in luck too!
