@@ -5,10 +5,7 @@ The Discord CSS overhaul.
 
 - Opacity
 - "Frosted glass" look
-
-# Side effects
-
-- You have to use quick switcher.
+- Images by Unsplash as your background
 
 # Installing
 
@@ -34,10 +31,11 @@ Further, you can test the gulp code with `npm test`.
 # Credits
 
 ```
-| Author    | Parts           | Copyright           |
+| Author    | Parts            | Copyright           |
 -----------------------------------------------------
 | BoxOfFlex | transparent base | (c) 2016 BoxOfFlex |
 | TripingPC | frosted glass    | (c) 2017 TripingPC |
 | Google    | fonts            | (c) 2017 Google    |
+| Unsplash  | backgrounds      | None.              |
 | xshotD    | the rest         | (c) 2017 S Stewart |
 ```
