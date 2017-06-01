@@ -19,11 +19,12 @@
     font-family: Roboto;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf");
 }*/
-/* import Noto's Color Emoji */
+/* import Noto's Color Emoji
 @font-face {
     font-family: Emoji;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/nce.ttf");
 }
+*/
 
 /* quick switcher notice, be gone */
 .quickswitcher-notice {
@@ -76,7 +77,4 @@ section.flex-verticle.flexspacer,
     filter: blur(40px);
     -webkit-filter: blur(40px);
 }
-/* use the font */
-body {
-    font-family: 'Emoji', sans-serif;
-}
+
