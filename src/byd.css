@@ -15,15 +15,16 @@
 }
 
 /* import Roboto Regular */
-@font-face {
+/*@font-face {
     font-family: Roboto;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf");
-}
-/* import Noto's Color Emoji */
+}*/
+/* import Noto's Color Emoji
 @font-face {
     font-family: Emoji;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/nce.ttf");
 }
+*/
 
 /* quick switcher notice, be gone */
 .quickswitcher-notice {
@@ -66,30 +67,14 @@ section.flex-verticle.flexspacer,
 .scroller::-webkit-scrollbar-track-piece {
 	 background: transparent !important;
 }
-.guilds-wrapper, .guild, .guild-inner, .guild-inner a{
-    z-index: 0;
-}
-.guilds-wrapper{
-    width:0;
-}
-.guilds-wrapper .guilds .guild.selected .guild-inner a:after{
-    visibility:visible;
-    content: "hello";
+
+.app .connecting {
     background-image:inherit;
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
-    position:fixed;
-    z-index:-999!important;
-    opacity:0.35;
+    background: url("http://unsplash.it/1366/768?random");
     filter: blur(40px);
     -webkit-filter: blur(40px);
-    height:100vh;
-    width:100vw;
-    top:0;
-    left:0;
 }
-/* use the font */
-body {
-    font-family: 'Roboto' !important, 'Emoji', sans-serif;
-}
+
