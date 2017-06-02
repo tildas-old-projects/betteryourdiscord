@@ -27,6 +27,7 @@
     "gulp-cssnano": "^2.1.2",
     "standard": "^10.0.1",
     "ora": "^1.2.0",
-    "bluebird": "^3.5.0"
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3"
   }
 }
