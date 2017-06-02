@@ -4,7 +4,7 @@
   "description": "A Discord CSS overhaul",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "standard --fix && gulp && ./testutils/exitcode.sh"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
-    "standard": "^10.0.1"
+    "standard": "^10.0.1",
+    "ora": "^1.2.0",
+    "bluebird": "^3.5.0"
   }
 }
