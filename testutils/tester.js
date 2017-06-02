@@ -15,7 +15,7 @@ const msg2 = 'Checking exit code...'
 const msg3 = 'Running gulp...'
 const msg4 = 'All done!'
 
-console.log(chalk.green(hello1))
+console.log(chalk.green(hello))
 spinner.start()
 setTimeout(() => {
     spinner.text = chalk.yellow(hello2)
