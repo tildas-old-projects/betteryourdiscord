@@ -34,7 +34,6 @@ async function test () {
     spinner.succeed('Style check succeeded')
   }
   spinner.text = msg2 + '\n'
-  spinner.start()
   if (sh.exec('gulp').code !== 0) {
     spinner.fail('Gulp failed for some reason... :/')
     process.exit(1)
