@@ -6,6 +6,8 @@
 
 /* thanks triping for le gr8 css */
 @import url("https://cdn.rawgit.com/TripingPC/discord-CSSes/master/account-circles.css");
+/* A few font improvements */
+@import url("https://cdn.rawgit.com/martmists/DiscordFonts/master/DiscordFonts.css");
 .btn-group button {
     background-color:transparent!important;
     box-shadow: none!important;
@@ -32,7 +34,6 @@
 }
 
 /* app transparency */
-.connecting,
 .theme-dark .guild-header header,
 section.flex-verticle.flexspacer,
 .theme-dark .guild-wrapper,
