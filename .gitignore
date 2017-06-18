@@ -38,3 +38,7 @@ jspm_packages
 
 # CSS compile out dir
 out
+
+# vim crust
+src/*.swp
+testutils/*.swp
