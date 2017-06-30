@@ -71,6 +71,11 @@ section.flex-verticle.flexspacer,
 
 .timestamp span {
 	font-family: 'Roboto', sans-serif;
+}
+
+.channel-members h2 {
+	font-family: 'Roboto', sans-serif;
+}
 
 .app .connecting {
     background-size:cover;
