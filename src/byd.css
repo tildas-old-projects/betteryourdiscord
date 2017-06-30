@@ -17,10 +17,10 @@
 }
 
 /* import Roboto Regular */
-/*@font-face {
+@font-face {
     font-family: Roboto;
     src: url("https://cdn.rawgit.com/xshotD/betteryourdiscord/master/fonts/roboto.ttf");
-}*/
+}
 /* import Noto's Color Emoji
 @font-face {
     font-family: Emoji;
@@ -68,6 +68,9 @@ section.flex-verticle.flexspacer,
 .scroller::-webkit-scrollbar-track-piece {
 	 background: transparent !important;
 }
+
+.timestamp span {
+	font-family: 
 
 .app .connecting {
     background-size:cover;
