@@ -69,11 +69,7 @@ section.flex-verticle.flexspacer,
 	 background: transparent !important;
 }
 
-.timestamp span {
-	font-family: 'Roboto', sans-serif;
-}
-
-.channel-members h2 {
+.timestamp span, .channel-members h2, .reaction, .reaction-me {
 	font-family: 'Roboto', sans-serif;
 }
 
